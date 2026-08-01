@@ -1,0 +1,12 @@
+name: XlandBuy
+version: 1.0.0
+main: com.xland.buy.XlandBuy
+api-version: 1.12
+depend: [Vault]
+softdepend: [PlayerPoints]
+author: Xland
+description: 菜单商店插件，支持Vault和PlayerPoints支付
+commands:
+  xlbuy:
+    description: 主命令
+    usage: /xlbuy [edit item|edit price|页码]
